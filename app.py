@@ -3,7 +3,8 @@ from langchain_community.llms import Ollama
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-llm = Ollama(model="llama3.1:latest")
+#llm = Ollama(model="llama3.1:latest")
+llm = Ollama(model="llama3")
 
 def main():
     st.title("Chat con Alexus")
